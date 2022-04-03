@@ -1,3 +1,18 @@
+//Find Total Number of Pairs available in an array whose sum is 8.
+//You can change the total sum from 8 to 9 whatever you can so just change in line number 32.
+//int totalSum=;
+//Sample Input
+//6 -->Length of array
+//5
+//0
+//3
+//8
+//6
+//1
+
+//Output 2
+//Explanation --> First Pair (5,3),  Second Pair (0,8). Both Pair Elements Sum is 8.
+
 import java.util.Scanner;
 public class Find_Sum_Pair {
     public static void main(String [] args){
@@ -29,4 +44,19 @@ public class Find_Sum_Pair {
         System.out.println(count);
     }
 }
+
+//Output
+//    Enter the Length of Array:
+//        6
+//        Enter the Array Elements
+//        5
+//        0
+//        3
+//        8
+//        6
+//        1
+//        Entered Array Elements are:
+//        5 0 3 8 6 1
+//        Total Number of Pair in given array whose sum is 8 are:
+//        2
 //This Code is Contributed by Vivek Kumar Gupta
