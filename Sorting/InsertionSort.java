@@ -13,7 +13,7 @@ public class InsertionSort {
         }
         System.out.println("Entered Array Elements before Sorting is:");
         System.out.println(Arrays.toString(arr));
-        //Selection Sort
+        //Insertion Sort
         for(int i=0; i<n; i++){
             int temp=arr[i], j=i;
             while(j>0 && arr[j-1]>temp){
