@@ -10,7 +10,7 @@ public class Bubble_Sort {
         for(int i=0; i<n; i++){
             arr[i]= vivek.nextInt();
         }
-        System.out.println("Entered Array Elements are before Sorting is::");
+        System.out.println("Entered Array Elements before Sorting is:");
         System.out.println(Arrays.toString(arr));
         //Bubble Sort
         for(int i=0; i<n-1; i++){
@@ -22,10 +22,11 @@ public class Bubble_Sort {
                 }
             }
         }
-        System.out.println("Array after Sorting is:");
+        System.out.println("Array after Bubble Sorting is:");
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
 
     }
 }
+//This Code is Contributed by Vivek Kumar Gupta
