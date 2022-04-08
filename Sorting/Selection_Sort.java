@@ -1,4 +1,4 @@
-//Selection Sort in Java
+//Selection Sort in Java O(N^2) Approach
 import java.util.Arrays;
 import java.util.Scanner;
 public class Selection_Sort {
