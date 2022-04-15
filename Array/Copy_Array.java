@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Copy_Array {
     public static void main(String [] args){
         int [] array_First={45,56,98,52,92};
