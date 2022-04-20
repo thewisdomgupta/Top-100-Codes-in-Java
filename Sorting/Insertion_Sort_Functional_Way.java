@@ -31,3 +31,4 @@ public class Insertion_Sort_Functional_Way {
         System.out.println(Arrays.toString(arr));
     }
 }
+//This Code is Contributed by Vivek Kumar Gupta
