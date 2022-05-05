@@ -15,8 +15,7 @@ public class QuickSort {
         int temp=arr[i];
         arr[i]=pivot;
         arr[high]=temp;
-         //pivot index
-        return i; 
+        return i;          //pivot index
     }
     public static void quickSort(int arr[], int low, int high){
         if(low<high){
