@@ -1,0 +1,46 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class WithoutSorting {
+    public static void swap(int [] arr, int p, int g){
+        int temp = arr[p];
+        arr[p] = arr[g];
+        arr[g] =temp;
+
+    }
+    public static void withOut(int []arr){
+        int left=0;
+        int right = arr.length-1;  
+        int curr = 0;
+        while(curr<=right){
+            if(arr[curr]==0){
+              swap(arr, curr++, left++);
+            }
+            else if(arr[curr]==2){
+                swap(arr, curr, right--);
+            }
+            else{
+                curr++;
+            }
+
+        }
+        System.out.println(Arrays.toString(arr));
+
+    }
+    public static void main(String[] args) {
+        System.out.println("Enter the Length of Array");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Enter the Elements of Array");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("Sorted Array is:");
+//        System.out.println(withOut(int [] arr));
+        withOut(arr);
+
+
+
+    }
+}
